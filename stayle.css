@@ -1,0 +1,260 @@
+body {
+    background-color: rgba(242, 247, 248, 0.941);
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    border-right: 1px solid rgb(231, 229, 229);
+    padding-top: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.main_c {
+    height: 60px; 
+}
+
+.c_icone {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    margin-left: 8px;
+    display: flex;               
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main_icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;  
+}
+
+.left_side_bar {
+    width: 50px;
+    align-items: center;
+}
+
+#cat {
+    background-color: lightblue;
+}
+
+.icone_all {
+    margin-top: 2px;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.profaile {
+    height: 30px;
+    width: 30px;
+    margin-top: 60px;
+    margin-left: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    border-left: 1px solid rgb(228, 226, 226) ;
+    background-color: white;
+}
+
+.coulom {
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.left_bar {
+    display: flex;
+    background-color: white;
+    width: 370px;
+}
+
+.text {
+    color: gray;
+    margin-top: 5px;
+}
+
+.name {
+    margin-top: 2px;
+}
+
+.shop_1 {
+    display: flex;
+    background-color: rgb(221, 236, 240);
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    color: rgb(96, 96, 249);
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: -70px;
+}
+
+.dolar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(248, 250, 252);
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.cash_1 {
+    margin-right: 50px;
+}
+
+.cash {
+    color: gray;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    margin-left: -270px;
+    margin-top: 460px;
+}
+
+.we {
+    background-color: blue;
+    height: 7px;
+    width: 100%;
+    clip-path: circle();
+    margin-left: -130px;
+}
+
+.we_1 {
+    background-color: gold;
+    height: 7px;
+    width: 100%;
+    clip-path: circle();
+    margin-left: -130px;
+}
+
+
+.link{
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: -300px;
+    color: rgb(96, 96, 249);
+}
+
+.ri-more-line {
+    color: gray;
+}
+
+.bika {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-left: 20px;
+    padding: 2px;
+    background-color: rgb(248, 250, 252);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.taim {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_0 {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+}
+
+.meeting {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+.meeting_1 {
+    font-size: 10px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.container_0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.nav_1{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.nav_0 {
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 150px;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone_l {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(227, 241, 246);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: gray;
+    cursor: pointer;
+}
