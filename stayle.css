@@ -218,34 +218,37 @@ body {
 
 .container_0 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: -170px;
 }
 
-.nav {
+
+
+.nav_sec {
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-left: 15px;
-    align-items: center;
-}
-
-.nav_1{
-    text-decoration: none;
-    color: black;
-    margin-left: 15px;
+    height: 60px;
+    padding: 0 15px;
+    margin-left: 30px;
+    
 }
 
 .nav_0 {
     display: flex;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    margin-top: 15px;
-    margin-left: 150px;
+    flex-direction: row;
     align-items: center;
     gap: 15px;
+    
 }
+
+
+.nav_0 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 
 .icone_l {
     display: flex;
@@ -257,4 +260,301 @@ body {
     border-radius: 10px;
     color: gray;
     cursor: pointer;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+            /* section_02 for card */
+.section_02 {
+    display: flex;
+    column-gap: 20px;
+ }
+.card_1 {
+    background-image: url(./image/tradin_1.png);
+    background-color: #cccccc;
+    height:300px;
+    width: 450px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card {
+    background-color: white;
+    height:300px;
+    width: 450px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+}
+.dola_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.dola_0 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.your {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: black;
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.inks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    justify-content: center;
+    color: gray;
+    margin-right: 10px;
+}
+.inks_01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    /* margin-left: 160px; */
+}
+
+#actevat {
+    height: 30px;
+    width: 50px;
+    border: 1px solid rgb(239, 234, 234);
+    border-radius: 10px;
+    color: black;
+}
+#actevat_1 {
+    height: 30px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.teta {
+    margin-left: 10px;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.teta_1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.monthe {
+    display: flex;
+    gap: 47px;
+    color: gray;
+    margin-top: 135px;
+    border-top: 1px solid rgb(235, 232, 232);
+    cursor: pointer;
+}
+
+.month {
+margin-top: 10px;
+}
+
+#mon {
+    margin-left:7px;
+}
+
+.dola_0 {
+    display: flex;
+    height: 170px;
+    align-items: center;
+}
+
+.prsnt {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.color_1, 
+.color_2,
+.color_22, 
+.color_33 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.blou {
+    background-color: blue;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+}
+.yellow {
+    background-color: rgb(214, 214, 6);
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+}
+.green {
+    background-color: green;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+}
+.red {
+    background-color: red;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+}
+
+.monthe_01,
+.monthe_11 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.event_1 {
+    margin-right: 10px;
+}
+
+.event_2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.event_02 {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(227, 241, 246);
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: rgb(101, 101, 245);
+    gap: 200px;
+}
+
+.event_03 {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.event_04 {
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+}
+
+.event_00 {
+    display: flex;
+    gap: 180px;
+}
+
+.teta_11 {
+    font-size: 13px;
+}
+
+.dola_02 {
+    display: flex;
+    height: 200px;
+    width: 450px;
+}
+
+.elzero {
+    display: flex;
+    flex-direction: column;
+}
+
+.bika_12 {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-top:  1px solid rgb(219, 215, 215);
+}
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 2px;
+    
+}
+.one_1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    width: 160px;
+    border-left: 1px solid rgb(219, 215, 215);
+    border-right: 1px solid rgb(219, 215, 215);
+    margin-top: 2px;
+}
+
+.tow {
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+}
+
+@media (min-width: 480px) and (max-width: 667px) {
+
+  .left_bar {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .container_0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
